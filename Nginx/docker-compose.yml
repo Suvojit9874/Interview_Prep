@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ubuntu-nginx-lab:
+    image: ubuntu:latest
+    container_name: ubuntu-nginx-lab
+    ports:
+      - "8080:80"
+    stdin_open: true
+    tty: true
